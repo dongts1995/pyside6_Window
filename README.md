@@ -80,9 +80,15 @@ Detail Content:
 3. Visual Studio Code
 - Install VSC and install extension python of Microsoft
 4. Example code to create a simple widget
-See _main_ex1.py_
+See _Ex1.py_
 
 ⌨️ (0:35:40) Organizing the code in classes
+Version 1: Setting everything up in the globol scope -> see Ex2.py
+Tạo app chỉ chứa một nút nhấn đơn giản, và viết code trong global scope
+Version 2: Setting up a separate class -> see Ex3.py
+Viết trong scope sử dụng class
+Version 3: Move the class into a separate file -> see Ex4.py
+Đưa class sang một file khác và import nó
 
 ⌨️ (0:50:57) Signals and Slots
 ⌨️ (1:08:47) Intro to Widgets
